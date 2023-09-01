@@ -1,0 +1,27 @@
+
+.slogan{
+    text-align: justify;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(137,195,192);
+    font-size: larger;
+     
+}
+
+.gentefeliz{
+    border-radius: 150px;
+    padding: 25px 25px 25px 25px;
+    width: 30%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+#doctor{
+    border-radius: 150px;
+}
+
+.img link{
+
+}
