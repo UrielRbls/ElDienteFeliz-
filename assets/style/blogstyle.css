@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: rgb(48, 65, 253);
+}
+
+footer {
+    background-color: rgb(54, 101, 194);
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    background-color: rgb(20, 165, 255);
+    color: azure;
+    border: dashed;
+}
+
+img {
+    width: 300px;
+
+}
+
+body {
+    text-align: justify;
+    background-color: rgb(189, 220, 240);
+}
