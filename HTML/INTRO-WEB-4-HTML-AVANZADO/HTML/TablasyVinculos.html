@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Vinculos</title>
+</head>
+<body>
+    <h1>Tablas</h1> <!--Las tablas son un conjunto estructurado de datos compuesto por filas y columnas-->
+    <caption>Ejemplo de una tabla</caption> <!--Este elemento representa un titulo descriptivo en una tabla -->
+    <table border="1"><!--Crea una tabla -->
+        <tr> <!--Representa una fila-->
+            <th>Encabezado1</th> 
+            <th>Encabezado2</th> <!--Representa una celda de encabezado-->
+            <th>Encabezado3</th>
+        </tr>
+        <tr>
+            <td>Perritu</td> <!--Representa las celdas de datos-->
+            <td>Gato</td>
+            <td>Pez</td>
+        </tr>
+        <tr>
+            <td>Tortuga</td>
+            <td>Cuyo</td>
+            <td>Hormiga</td>
+        </tr>
+
+    </table>
+    <br>
+    <caption>Esta es una tabla con reconmendaciones saludables</caption>
+    <table border="2">
+        <tr>
+            <th>Snacks</th>
+            <th>Bebidas</th>
+            <th>Postres</th>
+        </tr>
+        <tr>
+            <td>Chips de camote</td>
+            <td>Agua con frutas</td>
+            <td>Yogurt Griego congelado</td>
+        </tr>
+        <tr>
+            <td>1 taza de chips de camote, horneadas en air fryer por 18 min a 180 grados celcius</td>
+            <td>1 taza de agua de coco, con hielo</td>
+            <td>1/4 taza de Yogurt Griego congelado, con 1 cuchara de nueces sin sal</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <h1>Vinculos de anclaje</h1>
+    <h2>Anclaje Externo</h2>
+    <a href="https://psicologiaymente.com/vida/mejores-pastas-dientes" target="_blank">Las 5 mejores pastas de dientes </a> <!--Estos anclajes enlazan una pagina web diferente-->
+    <h3>Anclaje Interno</h3>
+    <a href="#Subtitulo1">Subtitulo1</a>
+    <h2>Las 5 mejores pastas de dientes(estudio cientifico)</h2>
+    <p>Muchas personas se preguntan cuál es la mejor pasta de dientes para mantener una salud bucodental adecuada. En el mercado existen múltiples marcas y productos para este fin, por lo que a veces puede ser un poco complicado elegir correctamente entre tanta oferta
+        
+        Además, no es fácil encontrar el dentrífico adecuado entre tantas características posibles: antisarro, blanqueantes, antisensibilidad, protección total, tres en uno...
+        
+        Para ayudarnos en esta misión de encontrar el dentrífico adecuado, la Organización de Consumidores y Usuarios (OCU) ha realizado recientemente una investigación para analizar la relación calidad-precio de distintas marcas y productos de pastas de dientes que podemos encontrar en cualquier supermercado. A raíz de la información extraída, la OCU ha hecho público un informe con las 5 mejores pastas de dientes.
+        .</p>
+        <a name="Subtitulo1"></a>
+        <h4>¿Cómo elegir una buena pasta de dientes?
+        </h4>
+        <p>Como hemos comentado, la amplia oferta en pastas de dientes dificulta que podamos hacernos una idea acertada sobre las bondades y defectos de cada producto. ¿Cuál es la diferencia real entre cada uno de los dentríficos? ¿Cuál es la mejor opción para la salud de cada miembro de la familia?</p>
+        <br>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nihil quo. Harum, corrupti numquam. Maxime voluptatem perspiciatis aliquam in amet accusantium, numquam reiciendis sunt beatae officia facere dignissimos minima ipsa?
+        </p>
+        <br>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid exercitationem itaque doloremque temporibus aut libero soluta molestiae, animi deserunt error, voluptatibus tenetur impedit repellat deleniti voluptatum beatae cum maxime dolorem!
+        </p>
+        <br>
+        <h2>Viculo de descarga</h2>
+        <a href="./Assets/manual-de-higiene-bucal.pdf" target="_blank">Descarga este PDF</a>
+        <!--./Es la mejor manera para localizar documentos 
+        etiquetas semánticas investigar-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Formularios</h1>
+        <form action="procesar formulario" method="post">Formulario Consultorio Dental</form>
+        <!-- Se utiliza para crear un formulario en HTML que permite a los usuarios ingresar y enviar datos -->
+        <br>
+        <h3>Etiqueta Input</h3>
+        <!--Se utiliza para crear campos de entrada en un formulario -->
+        <input type="text" name="usuario" placeholder="Usuario">
+        <!-- type: define el tipo de entrada (texto, correo, contraseña, etc.) -->
+        <!-- name: es el nombre del campo, utilizado para identificar el dato cuando se envia el formulario -->
+        <!-- placeholder: proporciona un texto ejemplo dentro del campo de entrada -->
+        <br>
+        <h3>Etiqueta Label</h3>
+        <!-- Se utiliza para etiquetar un elemento de entrada en un formulario, mejora la accesibilidad y la experiencia de un usuario -->
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" name="usuario">
+        <br>
+        <br>
+        <h3>Etiqueta Button</h3>
+        <!-- Se utiliza par crear botones en un formulario -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+        <!-- type: define el tipo de boton (submit, reset, button) -->
+        <!-- name: es el nombre del boton, utilizado para identificar el botob cuando se envio el formulario -->
+        <br>
+        <br>
+        <h3>Etiqueta Area de Texto</h3>
+        <!-- Se utiliza para crear campos de texto en un formulario-->
+        <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+        <br>
+        <br>
+        <hr>
+        <h1>Tipos De Entrada</h1>
+        <!--Los tipos de entrada permiten a los usuarios ingresar diferentes tipos de datos en un formulario-->
+        <h4>Enviar (submit)</h4>!
+        <!--Crea un boton que cuando hace click envia el formulario a una ubicacion especifica-->
+        <form action="/procesar formulario" method="post"></form>
+        <br>
+        <h4>Numero(number)</h4>
+        <!--Crear un campo de entrada para que el usuario ingrese numeros-->
+        <input type="number" name="numero">
+        <br>
+        <h4>contraseña(password)</h4>
+        <!--Crear un campo de entrada para que el usuario ingrese una contraseña-->
+        <input type="password" name="contraseña">
+        <br>
+        <h4>Correo (email)</h4>
+        <!--Crear un campo de entrada para que el usuario ingrese un correo-->
+        <input type="email" name="correo">
+        <br>
+        <h4>Fecha(date)</h4>
+        <!--Crear un campo de entrada, permite al usuario ingresar una fecha-->
+        <input type="date" name="fecha">
+        <br>
+        <h4>Hora(time)</h4>
+        <!--Crear un campo de entrada, permite al usuario elegir una hora-->
+        <input type="time" name="hora">
+        <br>
+        <h4>Telefono</h4>
+        <!--Crea un campo de entrada, permite al usuario ingresar un telefono-->
+        <input type="tel" name="telefono">
+        <br>
+        <h4>Archivo (file)</h4>
+        <!--Crea un campo de entrada, que permite al usuario ingresar un archivo-->
+        <input type="file" name="archivo">
+
+
+
+
+
+
+</body>
+</html>
